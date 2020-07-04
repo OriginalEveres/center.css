@@ -1,0 +1,118 @@
+/* 
+  center.css library by Matthew Husak.
+  Solcode | https://solcode.net
+
+  Don't forget to check out our Instagram.
+  https://www.instagram.com/solcode_solutions/
+*/
+
+
+/* 
+  Class name: center-hor-margin
+  This class is based on margin property for block elements. Setting margin left & right properties to auto
+  is a simple way to center elements like images, etc.
+*/
+
+.center-hor-margin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* 
+  Class name: rel-wrapper
+  This class is used to set position relative for wrappers that contains elements that will be centered
+  via the position absolute property.
+*/
+
+.rel-wrapper {
+  position: relative;
+}
+
+.center-abs {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 
+  Class name: center-hor-ver-flx
+  This class is used to center the elements inside the container with this class.
+  The elements are centered using the flex.
+*/
+
+.center-hor-ver-flx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+  Class name: center-mult-flx-space
+  This class is used to center the multiple elements inside via using the flex.
+*/
+
+.center-mult-flx-arround {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* 
+  Class name: center-mult-flx-even
+  This class is used to center the multiple elements inside via using the flex.
+*/
+
+.center-mult-flx-even {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* 
+  Class name: center-mult-flx
+  This class is used to center the multiple elements inside via using the flex.
+*/
+
+.center-mult-flx {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* 
+  Class name: center-ver-abs
+  This class is used for centering vertical position for elements in relative wrapper/container.
+*/
+
+.center-ver-abs {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* 
+  Class name: center-ver-abs
+  This class is used for centering horizontal position for elements in flex wrapper/container.
+*/
+
+.center-ver-flx {
+  display: flex;
+  align-items: center;
+}
+
+/* 
+  Class name: center-hor-abs
+  This class is used for centering horizontal position for elements in relative wrapper/container.
+*/
+
+.center-hor-abs {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

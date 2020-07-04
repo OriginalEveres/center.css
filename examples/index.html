@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pagestyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/center.minified.css">
+  <title>center.css | Solcode</title>
+</head>
+<body>
+  <a onclick="window.open('https://solcode.net', '_blank')" class="logo">
+    <img src="https://solcode.net/public/img/logo_dark.svg" alt="">
+  </a>
+
+  <a class="outline-button outline-button-red top-right-btn">GitHub</a>
+
+  <h1><span class="h-r-t">center.css</span></br>How to use <span class="h-r-t">this</span>?</h1>
+
+  <div class="example-box box-big rel-wrapper">
+    <div class="container-class-name">THIS IS THE CLASS NAME OF THE ELEMENT CONTAINER.</div>
+    <div class="centered-element center-abs">
+      <div class="element-class-name">THIS IS THE CLASS NAME OF THE ELEMENT.</div>
+    </div>
+  </div>
+
+  <h1>Horizontal and vertical</br><span class="h-r-t">centering</span>.</h1>
+
+  <div class="example-box-wrapper">
+
+    <div class="example-box box-big center-hor-ver-flx">
+      <div class="container-class-name">center-hor-ver-flx</div>
+      <div class="centered-element">
+      </div>
+    </div>
+    
+    <div class="example-box box-big rel-wrapper">
+      <div class="container-class-name">rel-wrapper</div>
+      <div class="centered-element center-abs">
+        <div class="element-class-name">center-abs</div>
+      </div>
+    </div>
+
+    <div class="example-box box-big center-mult-flx-even">
+      <div class="container-class-name">center-mult-flx-even</div>
+      <div class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+      <div class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+      <div class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+    </div>
+
+    <div class="example-box box-big center-mult-flx-arround">
+      <div class="container-class-name">center-mult-flx-arround</div>
+      <div class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+      <div class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+      <div class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+    </div>
+
+    <div class="example-box box-big center-mult-flx">
+      <div class="container-class-name">center-mult-flx</div>
+      <div class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+      <div class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+      <div class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+    </div>
+  </div>
+
+  <h1>Vertical <span class="h-r-t">centering</span>.</h1>
+
+  <div class="example-box-wrapper">
+
+    <div class="example-box box-small rel-wrapper">
+      <div class="container-class-name">rel-wrapper</div>
+      <div style="margin-left: 24px" class="centered-element center-ver-abs">
+        <div class="element-class-name">center-ver-abs</div>
+      </div>
+    </div>
+
+    <div class="example-box box-small center-ver-flx">
+      <div class="container-class-name">center-ver-flx</div>
+      <div style="margin-left: 24px" class="centered-element">
+        <div class="element-class-name"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <h1>Horizontal <span class="h-r-t">centering</span>.</h1>
+
+  <div class="example-box-wrapper">
+
+    <div class="example-box box-small">
+      <div class="container-class-name"></div>
+      <div style="position: relative;" class="centered-element center-hor-margin">
+        <div class="element-class-name">center-hor-margin</div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 80px;" class="example-box box-small rel-wrapper">
+      <div class="container-class-name">rel-wrapper</div>
+      <div class="centered-element center-hor-abs">
+        <div class="element-class-name">center-hor-abs</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="vertical-boxes">
+      <img class="footer-logo" src="https://solcode.net/public/img/logo_footer.svg" alt="" />
+      <strong class="flw-mobile-text">Follow us on:</strong>
+      <div class="flw-mobile">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          onclick="openIG()"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M20.4844 0H3.51562C1.57727 0 0 1.57727 0 3.51562V20.4844C0 22.4227 1.57727 24 3.51562 24H20.4844C22.4227 24 24 22.4227 24 20.4844V3.51562C24 1.57727 22.4227 0 20.4844 0ZM12.0469 18.2812C8.55743 18.2812 5.71875 15.4426 5.71875 11.9531C5.71875 8.46368 8.55743 5.625 12.0469 5.625C15.5363 5.625 18.375 8.46368 18.375 11.9531C18.375 15.4426 15.5363 18.2812 12.0469 18.2812ZM16.9688 4.92188C16.9688 6.08496 17.915 7.03125 19.0781 7.03125C20.2412 7.03125 21.1875 6.08496 21.1875 4.92188C21.1875 3.75879 20.2412 2.8125 19.0781 2.8125C17.915 2.8125 16.9688 3.75879 16.9688 4.92188ZM19.0781 4.21875C18.6901 4.21875 18.375 4.53387 18.375 4.92188C18.375 5.30988 18.6901 5.625 19.0781 5.625C19.4661 5.625 19.7812 5.30988 19.7812 4.92188C19.7812 4.53387 19.4661 4.21875 19.0781 4.21875ZM7.125 11.9531C7.125 9.2395 9.33325 7.03125 12.0469 7.03125C14.7605 7.03125 16.9688 9.2395 16.9688 11.9531C16.9688 14.6667 14.7605 16.875 12.0469 16.875C9.33325 16.875 7.125 14.6667 7.125 11.9531Z"
+            fill="#8295C3"
+          />
+        </svg>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          onclick="openLINKEDIN()"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.51562 0H20.4844C22.4227 0 24 1.57727 24 3.51562V20.4844C24 22.4227 22.4227 24 20.4844 24H3.51562C1.57727 24 0 22.4227 0 20.4844V3.51562C0 1.57727 1.57727 0 3.51562 0ZM5.67188 19.0312H8.48438V9.1875H5.67188V19.0312ZM8.48438 7.78125H5.67188V4.96875H8.48438V7.78125ZM15.5156 19.0312H18.3281V12.9229C18.3281 10.9006 16.7199 9.18951 14.8125 9.1875C14.1595 9.1875 13.7281 9.34814 13.2557 9.52402C13.0815 9.5889 12.9017 9.65586 12.7031 9.71759V9.1875H9.89062V19.0312H12.7031V13.4062C12.7031 12.631 13.3341 12 14.1094 12C14.8846 12 15.5156 12.631 15.5156 13.4062V19.0312Z"
+            fill="#8295C3"
+          />
+        </svg>
+      </div>
+      <strong>Solcode.</strong>
+      <p class="copyright">
+        <a class="email" href="mailto:contact@solcode.net"
+          >contact@solcode.net</a
+        ><br />
+        <span class="copy">© Solcode. 2019-2020. All rights reserved.</span>
+      </p>
+    </div>
+    <div class="vertical-boxes box-right">
+      <div class="scroll-wrapper">
+        <p class="scroll-text" onclick="scrollToTop()">Back to the top</p>
+        <div class="arrow-wrapper" onclick="scrollToTop()">
+          <svg
+            width="10"
+            height="12"
+            viewBox="0 0 10 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M1.11786 3.28936C0.771498 3.59243 0.7364 4.1189 1.03947 4.46526C1.34254 4.81162 1.86901 4.84672 2.21537 4.54365L4.16662 2.83631L4.16661 10.9998C4.16661 11.4601 4.53971 11.8332 4.99995 11.8332C5.46018 11.8332 5.83328 11.4601 5.83328 10.9998L5.83328 2.83631L7.78453 4.54365C8.13089 4.84672 8.65736 4.81162 8.96043 4.46526C9.2635 4.1189 9.2284 3.59243 8.88204 3.28936L5.5487 0.37269C5.23451 0.0977748 4.76538 0.0977748 4.45119 0.37269L1.11786 3.28936Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </div>
+      <strong class="mt-80 flw">Follow us on:</strong>
+      <div class="social-icons-wrapper">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          onclick="openIG()"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M20.4844 0H3.51562C1.57727 0 0 1.57727 0 3.51562V20.4844C0 22.4227 1.57727 24 3.51562 24H20.4844C22.4227 24 24 22.4227 24 20.4844V3.51562C24 1.57727 22.4227 0 20.4844 0ZM12.0469 18.2812C8.55743 18.2812 5.71875 15.4426 5.71875 11.9531C5.71875 8.46368 8.55743 5.625 12.0469 5.625C15.5363 5.625 18.375 8.46368 18.375 11.9531C18.375 15.4426 15.5363 18.2812 12.0469 18.2812ZM16.9688 4.92188C16.9688 6.08496 17.915 7.03125 19.0781 7.03125C20.2412 7.03125 21.1875 6.08496 21.1875 4.92188C21.1875 3.75879 20.2412 2.8125 19.0781 2.8125C17.915 2.8125 16.9688 3.75879 16.9688 4.92188ZM19.0781 4.21875C18.6901 4.21875 18.375 4.53387 18.375 4.92188C18.375 5.30988 18.6901 5.625 19.0781 5.625C19.4661 5.625 19.7812 5.30988 19.7812 4.92188C19.7812 4.53387 19.4661 4.21875 19.0781 4.21875ZM7.125 11.9531C7.125 9.2395 9.33325 7.03125 12.0469 7.03125C14.7605 7.03125 16.9688 9.2395 16.9688 11.9531C16.9688 14.6667 14.7605 16.875 12.0469 16.875C9.33325 16.875 7.125 14.6667 7.125 11.9531Z"
+            fill="#8295C3"
+          />
+        </svg>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          onclick="openLINKEDIN()"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.51562 0H20.4844C22.4227 0 24 1.57727 24 3.51562V20.4844C24 22.4227 22.4227 24 20.4844 24H3.51562C1.57727 24 0 22.4227 0 20.4844V3.51562C0 1.57727 1.57727 0 3.51562 0ZM5.67188 19.0312H8.48438V9.1875H5.67188V19.0312ZM8.48438 7.78125H5.67188V4.96875H8.48438V7.78125ZM15.5156 19.0312H18.3281V12.9229C18.3281 10.9006 16.7199 9.18951 14.8125 9.1875C14.1595 9.1875 13.7281 9.34814 13.2557 9.52402C13.0815 9.5889 12.9017 9.65586 12.7031 9.71759V9.1875H9.89062V19.0312H12.7031V13.4062C12.7031 12.631 13.3341 12 14.1094 12C14.8846 12 15.5156 12.631 15.5156 13.4062V19.0312Z"
+            fill="#8295C3"
+          />
+        </svg>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
