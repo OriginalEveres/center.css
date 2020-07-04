@@ -18,7 +18,20 @@ In this repo you can find these files:
 
 ## CDN for implementation
 
-  TO:DO
+**CDN** for unminified version. **(size: 2.33 KB)**
+https://cdn.jsdelivr.net/gh/OriginalEveres/center.css@master/src/center.css
+
+**CDN** for minified version. **(size: 732 B)**
+https://cdn.jsdelivr.net/gh/OriginalEveres/center.css@master/src/center.minified.css
+
+## Code for implementation
+
+**Unminified version:**
+
+    <link  href="https://cdn.jsdelivr.net/gh/OriginalEveres/center.css@master/src/center.css"  rel="stylesheet">
+**Minified version:**
+
+    <link  href="https://cdn.jsdelivr.net/gh/OriginalEveres/center.css@master/src/center.minified.css"  rel="stylesheet">
 
 # How to use it?
 
