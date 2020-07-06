@@ -1,3 +1,5 @@
+[![](https://data.jsdelivr.com/v1/package/gh/OriginalEveres/center.css/badge)](https://www.jsdelivr.com/package/gh/OriginalEveres/center.css)
+
 # center.css | Solcode's library
 
 We believe that most developers are fully capable of coding this simple code, but it could be so boring to rewrite all the code, so here we go with this simple library!
