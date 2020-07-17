@@ -19,6 +19,15 @@
   margin-right: auto;
 }
 
+/* 
+  Class name: center-width100-align
+  Used for centering text that is wide 100% of the width.
+*/
+
+.center-width100-align {
+  text-align: center;
+  width: 100%;
+}
 
 /* 
   Class name: rel-wrapper

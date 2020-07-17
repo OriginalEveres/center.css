@@ -44,6 +44,19 @@ body, html {
   transition: 250ms ease;
 }
 
+.centered-element-text {
+  background: none !important;
+  box-shadow: none !important;
+  width: max-content;
+  height: max-content;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 32px;
+  color: #0B121B;
+}
+
 .centered-element:hover {
   background: #FD4E6C;
 }
