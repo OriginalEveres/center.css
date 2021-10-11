@@ -37,3 +37,8 @@ Temporary Items
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/center.css.iml
