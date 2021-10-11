@@ -38,3 +38,5 @@ https://cdn.jsdelivr.net/gh/OriginalEveres/center.css@master/src/center.minified
 # How to use it?
 
 To see all the CSS rules visit the examples or this link https://dev.solcode.net/centercss.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/solcode)
