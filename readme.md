@@ -11,7 +11,7 @@ Feel free to use it in your project!
 # 🤔 How to implement in your project
 Implementing our CSS library is pretty easy. All you have to do is just link the CSS file and asign the clasess to your elements.
 
-# How to use it?
+# 🛠 How to use it?
 
 To see all the CSS rules visit the examples or this link https://dev.solcode.net/centercss.
 
