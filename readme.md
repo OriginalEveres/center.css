@@ -46,3 +46,8 @@ https://cdn.jsdelivr.net/gh/OriginalEveres/center.css@master/src/center.minified
 Even that we have our clients, a little support would really help us to speed up free & open-source projects like this.
 ###
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/solcode)
+###
+BTC Address
+(3KkrgnJfN8zCGTqWPfjRAKLeUSPD2z79aG)
+###
+<img src="https://solcode.net/public/img/btc_donate.png" width=150>
