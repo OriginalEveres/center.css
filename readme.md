@@ -42,7 +42,7 @@ https://cdn.jsdelivr.net/gh/OriginalEveres/center.css@master/src/center.minified
 
     <link  href="https://cdn.jsdelivr.net/gh/OriginalEveres/center.css@master/src/center.minified.css"  rel="stylesheet">
 
-## 🙏 Leave a review on a product hunt
+## 🙏 Leave review on a product hunt
 It really helps us.
 ###
 <a href="https://www.producthunt.com/posts/center-css-a-simple-centering-library?utm_source=badge-review&utm_medium=badge&utm_souce=badge-center-css-a-simple-centering-library#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=317696&theme=light" alt="Center.css - a simple centering library - All of the centering classes that you need! | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
